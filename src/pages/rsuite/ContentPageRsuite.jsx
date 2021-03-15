@@ -57,13 +57,6 @@ class ContentPageRsuite extends React.Component {
       } = this.state;
       this.setState({ loading: true });
 
-      // const data = {
-      //   content,
-      //   passPhrase,
-      //   TTL: validTill,
-      //   generatePassphrase,
-      // };
-
       const formData = new FormData();
       formData.set('content', content);
       formData.set('passPhrase', passPhrase);

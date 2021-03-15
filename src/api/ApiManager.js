@@ -15,4 +15,4 @@ const makeApiCall = (url, httpMethod, data = {}) => {
   }
 };
 
-export default makeApiCall;
+export default { makeApiCall };
